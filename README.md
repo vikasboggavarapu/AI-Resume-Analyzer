@@ -4,6 +4,19 @@ An AI-powered resume analysis application that compares a candidate's resume wit
 
 The application uses Reactfor the frontend, FastAPI for the backend, and an LLM through the Groq API for resume analysis.
 
+-----
+## ScreenShots
+
+## Home Page
+ ![Home Page](screenshots/HomePage.png)
+
+## Uploading Resume and Job Description
+![Resume Upload](screenshots/upload.png)
+
+## Analysis
+![Resume Analysis](screenshots/analysis.png)
+
+------
 ## Features
 
 * Upload resumes in PDF format
@@ -37,6 +50,8 @@ AI
 Document Processing
 
 * PyPDF
+
+ 
 
 ## Architecture
 

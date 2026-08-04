@@ -50,7 +50,7 @@ function App() {
 <textarea
   rows = "10"
   cols= "60"
-  placeholder='Paste the job description'
+  placeholder='Paste the job description here...'
   value={jobDescription}
   onChange={(e)=> setJobDescription(e.target.value)}
   spellCheck = "false"
