@@ -53,6 +53,7 @@ function App() {
   placeholder='Paste the job description'
   value={jobDescription}
   onChange={(e)=> setJobDescription(e.target.value)}
+  spellCheck = "false"
 />
 
 <br/>
