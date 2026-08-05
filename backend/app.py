@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 import os,io,json
 
 
-#1.Application setup
-
 load_dotenv()
 app = FastAPI()
 
