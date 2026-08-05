@@ -31,7 +31,7 @@ def home():
 @app.post("/analyze")
 async def upload_resume(file: UploadFile = File(...),job_description : str = Form(...)):
 
-#3.Read uploaded PDF
+
     contents = await file.read()
 
     pdf = PdfReader(io.BytesIO(contents))
